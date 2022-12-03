@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <section id="histories">
+            <section class="card blog-card">
+                <p>Difference Between Local Storage and Session Storage</p>
+                <p>
+                    <br>
+                    <b>Local Storage:</b><br> Local storage stores a larger amount of data on the
+                    client's computer in a key-value pair format and has no expiration date. Data is never transferred
+                    to the server and is accessible via JavaScript and HTML5.
+                    <br>
+                    <br>
+                    <b>Session Storage:</b><br> Session storage stores a larger amount of data on the client's
+                    computer only for the current session, expiring the data on tab close. Data is never transferred to
+                    the server and is accessible client-side from the same tab.
+                </p>
+            </section>
+            <section class="card blog-card">
+                <p>Difference Between Global Scope and Block Scope</p>
+                <p>
+                    <br>
+                    <b>Global Scope:</b><br> Global variables can be accessed from anywhere in a JavaScript program.
+                    Variables declared with var , let and const are quite similar when declared outside a block.
+                    <br>
+                    <br>
+                    <b>Block Scope:</b><br> A variable when declared inside the if or switch conditions or inside for or
+                    while loops, are accessible within that particular condition or loop. To be consise the variables
+                    declared inside the curly braces are called as within block scope.
+                </p>
+            </section>
+            <section class="card blog-card">
+                <p>JavaScript Event Loop Runtime Procedure</p>
+                <p>
+                    <br>
+                    The event loop is a mechanism that allows JavaScript to perform non-blocking operations. When an
+                    asynchronous task is started, the event loop will start running. Once the task is completed, the
+                    event loop will again check for any other tasks that need to be performed.
+                    <br>
+                    <br>
+                    The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call
+                    Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call
+                    Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop. Each event
+                    is just a function callback.
+                </p>
+            </section>
+            <section class="card blog-card">
+                <p>How many ways to get Undefined</p>
+                <p>
+                    <br>
+                    Undefined is also a primitive value in JavaScript. A variable or an object has an undefined value
+                    when no value is assigned before using it. So we can say that undefined means lack of value or
+                    unknown value.
+                </p>
+                <ul>
+                    <li>We will get undefined value when we call a non-existent property or method of an object.</li>
+                    <li>If there is no return value of a function then we can get undefined value</li>
+                    <li>Lack of enough argument value and default value of function's argument can responsible for
+                        undefined value</li>
+                </ul>
+            </section>
+        </section>
+
+    </main>
+</body>
+
+</html>
